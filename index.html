@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Ecommerce</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- .................... nav....................... -->
+    <section id="header">
+        <a href="/"><img src="/img/logo/logo.png" alt="logo" class="logo"></a>
+        <div>
+            <ul id="navbar">
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <div><a id="nav-cart" href="cart.html"><i class="fa-solid fa-cart-arrow-down fa-xl"></i></a></div>
+                <a href="/" id="close"><i class="fa-solid fa-xmark"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a id="mob-nav-cart" href="cart.html"><i class="fa-solid fa-cart-arrow-down fa-xl"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+
+    <!-- --------- hero section ------------ -->
+    <section aria-label="Newest Photes">
+        <div class="carousel" data-carousel>
+            <button class="carousel-button prev" data-carousel-button="prev"><i
+                    class="fa-solid fa-less-than"></i></button>
+            <button class="carousel-button next" data-carousel-button="next"><i
+                    class="fa-solid fa-greater-than"></i></button>
+
+            <div class="carousel-content">
+                <h1>Experience Innovation in Your Palm</h1>
+                <h2>Unmatched Performance & Elegance</h2>
+                <p>Discover the future with a smartphone crafted for excellence. Sleek, powerful, and designed to
+                    elevate your mobile experience.</p>
+                <div class="btn">
+                    <button onclick="window.location.href='shop.html'">Shop Now</button>
+                    <button class="btn1">Learn More</button>
+                </div>
+            </div>
+            <ul data-slides>
+                <li class="slide" data-active>
+                    <img src="/img/banner/1.jpg" alt="home images">
+                </li>
+                <li class="slide">
+                    <img src="/img/banner/2.jpg" alt="home images">
+                </li>
+                <li class="slide">
+                    <img src="/img/banner/3.jpg" alt="home images">
+
+                </li>
+                <li class="slide">
+                    <img src="/img/banner/4.png" alt="home images">
+
+                </li>
+
+                </li>
+                <li class="slide">
+                    <img src="/img/banner/5.jpg" alt="home images">
+
+                </li>
+            </ul>
+        </div>
+    </section>
+
+
+
+    <!-- --------- feature section ------------ -->
+    <section id="feature" class="section-p1">
+        <div class="fe-box">
+            <img src="/img/features/Free shipping.png" alt="free shipping">
+            <h6>Free shipping</h6>
+        </div>
+
+        <div class="fe-box">
+            <img src="/img/features/order.png" alt="Online order">
+            <h6>Online Order</h6>
+        </div>
+
+        <div class="fe-box">
+            <img src="/img/features/save money.png" alt="save Mmoney">
+            <h6>Save Money</h6>
+        </div>
+
+        <div class="fe-box">
+            <img src="/img/features/promotion.png" alt="promotion">
+            <h6>Promotion</h6>
+        </div>
+
+        <div class="fe-box">
+            <img src="/img/features/sell.png" alt="Happy sell">
+            <h6>Happy Sell</h6>
+        </div>
+
+        <div class="fe-box">
+            <img src="/img/features/support.png" alt="support">
+            <h6>24/7 Support</h6>
+        </div>
+    </section>
+
+    <!-- ------------------featured products----------- -->
+
+    <section id="product1" class="section-p1">
+        <h2>Featured Products</h2>
+        <p>Check out the hottest smartphones handpicked just for you.</p>
+        <div class="pro-container">
+            <div class="pro">
+
+                <img src="/img/products/card1/1.jpg" alt="product1">
+                <div class="des">
+                    <span>Realme</span>
+                    <h5>Realme 12+ 5G </h5>
+                    <div class="star">
+                        <i class="fas fa-star"> </i>
+                        <i class="fas fa-star"> </i>
+                        <i class="fas fa-star"> </i>
+                        <i class="fas fa-star"> </i>
+                        <i class="fas fa-star"> </i>
+                    </div>
+                    <h4>₹17,000/-</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="/img/products/card2/1.jpg" alt="product1">
+                <div class="des">
+                    <span>IQOO</span>
+                    <h5>IQOO Z9 Lite 5G </h5>
+                    <div class="star">
+                        <i class="fas fa-star"> </i>
+                        <i class="fas fa-star"> </i>
+                        <i class="fas fa-star"> </i>
+                        <i class="fas fa-star"> </i>
+                        <i class="fas fa-star"> </i>
+                    </div>
+                    <h4>₹27,000/-</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="/img/products/card3/1.jpg" alt="product1">
+                <div class="des">
+                    <span>Techno</span>
+                    <h5>Techno Phantom Vfold 5G </h5>
+                    <div class="star">
+                        <i class="fas fa-star"> </i>
+                        <i class="fas fa-star"> </i>
+                        <i class="fas fa-star"> </i>
+                        <i class="fas fa-star"> </i>
+                        <i class="fas fa-star"> </i>
+                    </div>
+                    <h4>₹87,000/-</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="/img/products/card4/1.webp" alt="product1">
+                <div class="des">
+                    <span>Samsung</span>
+                    <h5>Samsung galaxy S23 ultra 5G </h5>
+                    <div class="star">
+                        <i class="fas fa-star"> </i>
+                        <i class="fas fa-star"> </i>
+                        <i class="fas fa-star"> </i>
+                        <i class="fas fa-star"> </i>
+                        <i class="fas fa-star"> </i>
+                    </div>
+                    <h4>₹1,16,500/-</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="/img/products/card5/1.jpg" alt="product1">
+                <div class="des">
+                    <span>Realme</span>
+                    <h5>Realme Narzo N51 5G </h5>
+                    <div class="star">
+                        <i class="fas fa-star"> </i>
+                        <i class="fas fa-star"> </i>
+                        <i class="fas fa-star"> </i>
+                        <i class="fas fa-star"> </i>
+                        <i class="fas fa-star"> </i>
+                    </div>
+                    <h4>₹16,010/-</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="/img/products/card6/1.jpg" alt="product1">
+                <div class="des">
+                    <span>One Plus</span>
+                    <h5>One Plus 5G </h5>
+                    <div class="star">
+                        <i class="fas fa-star"> </i>
+                        <i class="fas fa-star"> </i>
+                        <i class="fas fa-star"> </i>
+                        <i class="fas fa-star"> </i>
+                        <i class="fas fa-star"> </i>
+                    </div>
+                    <h4>₹19,500/-</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="/img/products/card7/1.jpg" alt="product1">
+                <div class="des">
+                    <span>Lava</span>
+                    <h5>Lava Blaze DUO 5G </h5>
+                    <div class="star">
+                        <i class="fas fa-star"> </i>
+                        <i class="fas fa-star"> </i>
+                        <i class="fas fa-star"> </i>
+                        <i class="fas fa-star"> </i>
+                        <i class="fas fa-star"> </i>
+                    </div>
+                    <h4>₹90,500/-</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="/img/products/card8/1.jpg" alt="product1">
+                <div class="des">
+                    <span>Redmi</span>
+                    <h5>Redmi Note 14 5G </h5>
+                    <div class="star">
+                        <i class="fas fa-star"> </i>
+                        <i class="fas fa-star"> </i>
+                        <i class="fas fa-star"> </i>
+                        <i class="fas fa-star"> </i>
+                        <i class="fas fa-star"> </i>
+                    </div>
+                    <h4>₹20,500/-</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+        </div>
+        
+        <button onclick="window.location.href='sproduct.html'">Explore All</button>
+
+
+    </section>
+
+
+    <section id="banner" class="section-m1">
+        <div class="banner-content">
+            <h4>Repair Services</h4>
+            <h2>Up to <span>70% off</span> - All Smart Phones and Accessories</h2>
+            <button class="normal">Explore More</button>
+        </div>
+    </section>
+
+    <section id="product1" class="section-p1">
+        <h2>New Category</h2>
+        <p>Check out the hottest smartphones handpicked just for you.</p>
+        <div class="pro-container">
+            <div class="pro">
+
+                <img src="/img/products/p1/1.jpg" alt="product1">
+                <div class="des">
+                    <span>realme</span>
+                    <h5>Fast Charging Power Bank </h5>
+                    <div class="star">
+                        <i class="fas fa-star"> </i>
+                        <i class="fas fa-star"> </i>
+                        <i class="fas fa-star"> </i>
+                        <i class="fas fa-star"> </i>
+                        <i class="fas fa-star"> </i>
+                    </div>
+                    <h4>₹40,000/-</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="/img/products/p2/1.jpg" alt="product1">
+                <div class="des">
+                    <span>Sony</span>
+                    <h5>Sony noise free headphone</h5>
+                    <div class="star">
+                        <i class="fas fa-star"> </i>
+                        <i class="fas fa-star"> </i>
+                        <i class="fas fa-star"> </i>
+                        <i class="fas fa-star"> </i>
+                        <i class="fas fa-star"> </i>
+                    </div>
+                    <h4>₹23,500/-</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="/img/products/p3/1.jpg" alt="product1">
+                <div class="des">
+                    <span>Boat</span>
+                    <h5>Boat headband </h5>
+                    <div class="star">
+                        <i class="fas fa-star"> </i>
+                        <i class="fas fa-star"> </i>
+                        <i class="fas fa-star"> </i>
+                        <i class="fas fa-star"> </i>
+                        <i class="fas fa-star"> </i>
+                    </div>
+                    <h4>₹6,500/-</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="/img/products/p4/1.jpg" alt="product1">
+                <div class="des">
+                    <span>Boat</span>
+                    <h5>Boat TWS</h5>
+                    <div class="star">
+                        <i class="fas fa-star"> </i>
+                        <i class="fas fa-star"> </i>
+                        <i class="fas fa-star"> </i>
+                        <i class="fas fa-star"> </i>
+                        <i class="fas fa-star"> </i>
+                    </div>
+                    <h4>₹8,500/-</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="/img/products/p5/1.jpg" alt="product1">
+                <div class="des">
+                    <span>Noise</span>
+                    <h5>Noise TWS</h5>
+                    <div class="star">
+                        <i class="fas fa-star"> </i>
+                        <i class="fas fa-star"> </i>
+                        <i class="fas fa-star"> </i>
+                        <i class="fas fa-star"> </i>
+                        <i class="fas fa-star"> </i>
+                    </div>
+                    <h4>₹49,000/-</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="/img/products/p6/1.jpg" alt="product1">
+                <div class="des">
+                    <span>Boat</span>
+                    <h5>Boat Power Bank</h5>
+                    <div class="star">
+                        <i class="fas fa-star"> </i>
+                        <i class="fas fa-star"> </i>
+                        <i class="fas fa-star"> </i>
+                        <i class="fas fa-star"> </i>
+                        <i class="fas fa-star"> </i>
+                    </div>
+                    <h4>₹86,500/-</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="/img/products/p7/1.jpg" alt="product1">
+                <div class="des">
+                    <span>DUAL</span>
+                    <h5> DUAL car adaptar </h5>
+                    <div class="star">
+                        <i class="fas fa-star"> </i>
+                        <i class="fas fa-star"> </i>
+                        <i class="fas fa-star"> </i>
+                        <i class="fas fa-star"> </i>
+                        <i class="fas fa-star"> </i>
+                    </div>
+                    <h4>₹16,500/-</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="/img/products/p8/1.jpg" alt="product1">
+                <div class="des">
+                    <span>realme</span>
+                    <h5>phone wireless charger </h5>
+                    <div class="star">
+                        <i class="fas fa-star"> </i>
+                        <i class="fas fa-star"> </i>
+                        <i class="fas fa-star"> </i>
+                        <i class="fas fa-star"> </i>
+                        <i class="fas fa-star"> </i>
+                    </div>
+                    <h4>₹11,500/-</h4>
+                </div>
+                <a href="#"><i class="fa-solid fa-cart-shopping cart"></i></a>
+            </div>
+
+        </div>
+
+
+
+    </section>
+
+    <section id="sm-banner" class="section-p1">
+        <div class="banner-box">
+            <h4>bumper details</h4>
+            <h2>buy 1 get 12 free</h2>
+            <span>the best premium smart phones forever you seen ...buy now</span>
+            <button class="white">Learn more</button>
+        </div>
+        <div class="banner-box banner-box2">
+            <h4>Exclusive deals</h4>
+            <h2>toda's deals</h2>
+            <span>the best premium smart phones forever you seen ...buy now</span>
+            <button class="white">Learn more</button>
+        </div>
+
+    </section>
+
+
+    <section id="banner3">
+        <div class="banner-box">
+            <h2>Festive SALE</h2>
+            <h3>festival deals -50% OFF</h3>
+        </div>
+
+        <div class="banner-box banner-box2">
+            <!-- <h2>Festive SALE</h2>
+            <h3>festival deals -50% OFF</h3> -->
+        </div>
+
+        <div class="banner-box banner-box3">
+            <h2>Summer SALE</h2>
+            <h3>Summer deals -50% OFF</h3>
+        </div>
+
+
+    </section>
+
+    <section id="trust-section" class="section-p1">
+        <div class="trust-banner">
+            <h3>Why Shop With Us?</h3>
+            <ul>
+                <li>Secure Payments:</li>
+                <p>Your transactions are <span>100% secure</span> with advanced encryption.</p>
+                <li>Fast & Free Shipping</li>
+                <p>Enjoy swift, free delivery on all orders above <span>₹500000.</span></p>
+                <li>Easy Returns</li>
+                <p>Hassle-free returns within 30 days for peace of mind.</p>
+                <li>Customer Support</li>
+                <p>Our support team is here 24/7 to assist you with any queries.</p>
+                <li>Genuine Products</li>
+                <p>We <span1>guarantee authenticity</span1> on every product you purchase.</p>
+            </ul>
+            <div class="button1" </div>
+                <button class="btn2">Learn More</button>
+                <button>Shop Now</button>
+            </div>
+        </div>
+        <div class="trust-tech-img">
+
+        </div>
+    </section>
+
+
+    <section id="newsletter" class="section-p1 section-m1">
+        <div class="newstext">
+            <h4>Sign Up For Newsletters</h4>
+            <p>Get E-mail updates about our latest shop and <span>special offer</span></p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your email address">
+            <button class="normal">SignUp</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="/img/logo/logo.png" alt="logo">
+            <h4>Contact</h4>
+            <p><strong>Address:</strong> 534 Laxmi Nagar, Raya Road, Mathura, Uttar Pradesh, 281555</p>
+            <p><strong>Phone:</strong> +91 1234567790</p>
+            <p><strong>Hours:</strong> 10:00 - 18:00, Mon - Sat</p>
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-pinterest-p"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My WishList</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="img/pay/app.jpg" alt="App Store">
+                <img src="img/pay/play.jpg" alt="Google Play">
+            </div>
+            <p>Secured Payment Gateways</p>
+            <img src="img/pay/pay.png" alt="Payment Methods">
+        </div>
+        <div class="copyright">
+            <p>©2025, Mohit Saraswat - MobiMart</p>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
